@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config
+  namespace: demo-infra
+data:
+  message: "Hello from Flux infrastructure sync!"
